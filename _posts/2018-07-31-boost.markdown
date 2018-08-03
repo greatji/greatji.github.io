@@ -1,19 +1,10 @@
 ---
-<<<<<<< HEAD
-layout: home
+layout: post
 title:  "Boosting"
 date:   2018-07-31 14:21:49 -0000
 categories: blog
-mathjax: true
----
-=======
-layout: page
-title:  "Boosting"
-date:   2018-07-31 14:21:49 -0700
-categories: blog
 ---
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
->>>>>>> 2ff954d09138280de8b86541735dc23a11b69f33
 # Boosting
 
 ## AdaBoost
