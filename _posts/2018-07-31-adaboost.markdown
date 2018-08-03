@@ -60,7 +60,7 @@ $$=\sum_{y_i=h_t(x_i)}D_t^ie^{-\alpha}+\sum_{y_i \ne h_t(x_i)}D_t^ie^{\alpha}$$
 $$=\sum_{y_i=h_t(x_i)}D_t^ie^{-\alpha}+\sum_{y_i \ne h_t(x_i)}D_t^ie^{\alpha}$$  
 $$=e^{-\alpha}\sum_{i=1}^{m}D_t^i + (e^{\alpha}-e^{-\alpha})\sum_{i=1}^{m}D_t^iI(y_i \ne h(x_i))$$  
 </center>
-From equation above, we can say that \\(h_t^*(x)\\) can replace \\(h_t(x_i)\\)    
+From equation above, we can say that \\(h_t^{\*}(x)\\) can replace \\(h_t(x_i)\\)    
 Next, we need to get \\(\alpha_t\\)  
 $$\alpha_t=arg\min_{\alpha}e^{-\alpha}\sum_{i=1}^{m}D_t^i + (e^{\alpha}-e^{-\alpha})\sum_{i=1}^{m}D_t^iI(y_i \ne h_t^*(x_i))$$  
 Calculate derivative of the right part and make it 0 to get \\(\alpha_t^*\\)  
