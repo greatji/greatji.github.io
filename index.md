@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 permalink: /
 ---
 #### I am currently a PhD student in database group of [Tsinghua University](http://www.tsinghua.edu.cn/publish/thu2018en/index.html), working with professor [Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/).I received my bachelor degree in Computer Science of [Beijing University of Posts and Telecommunications](http://www.bupt.edu.cn/). I am interested in Distributed System, Data Integration, Query Optimization, Machine Learning.
