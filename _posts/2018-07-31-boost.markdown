@@ -1,10 +1,16 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+---
+layout: home
+title:  "Boosting"
+date:   2018-07-31 14:21:49 -0000
+categories: blog
+mathjax: true
+---
 # Boosting
 
 ## AdaBoost
 The AdaBoost algorithm of Freund and Schapire was the first practical boosting algorithm, and remains one of the most widely used and studied, with applications in numerous fields.
 ### Algorithm
-![avatar](../figures/adaboost_program.png)
+![avatar](/figures/adaboost_program.png)
 <center><small>The boosting algorithm AdaBoost</small></center>
 \((x_i, y_i)\) is a tuple where \(x_i\) is features vector and \(y_i\) is class label.
 In the begining, all tuples have same weigh represented by distribution \(D_t^i\).
@@ -30,31 +36,31 @@ Algorithm:
     - \\(f_m(x)=f_{m-1}(x)+\beta_mb(x;\gamma_m)\\)
     - \\(f(x)=\sum_{m=1}^{M}\beta_mb(x;\gamma_m)\\)
     
-We suppose that loss function of Adaboost is exponential loss.
-$$L(y,H(x))=\exp(-yH(x))$$
-$$H_t(x)=H_{t-1}(x)+\alpha_th_t(x)$$
-We aim to get
-$$(\alpha_t,h_t(x))=arg\min_{\alpha,h}\sum_{i=1}^{m}\exp(-y_i(H_{t-1}(x_i)+\alpha h(x_i)))$$
+We suppose that loss function of Adaboost is exponential loss.  
+$$L(y,H(x))=\exp(-yH(x))$$  
+$$H_t(x)=H_{t-1}(x)+\alpha_th_t(x)$$  
+We aim to get  
+$$(\alpha_t,h_t(x))=arg\min_{\alpha,h}\sum_{i=1}^{m}\exp(-y_i(H_{t-1}(x_i)+\alpha h(x_i)))$$  
 The solution to problem with multiple parameters, we can fix \\(H_{t-1}(x_i)\\) so that \\(\exp(-y_iH_{t-1}(x_i))\\) is dependent to
 \\(\alpha\ and\ h(x_i)\\). Set
-$$D_t^i=\exp(-y_iH_{t-1}(x_i))$$
-$$(\alpha_t,h_t(x))=arg\min_{\alpha,h}\sum_{i=1}^{m}D_t^i\exp(-y_i\alpha h(x_i))$$
-For solving this equation, \\(h_t(x)\\) has another equation.
-$$h_t^*(x)=arg\min_h\sum_{i=1}^{m}D_t^iI(y_i \ne h(x_i))$$
-We can solve this by training a weak model.
-Consider \\(y_i \in \\{-1,+1\\}\\)
-$$\sum_{i=1}^{m}D_t^i\exp(-y_i\alpha h(x_i))$$
-$$=\sum_{y_i=h_t(x_i)}D_t^ie^{-\alpha}+\sum_{y_i \ne h_t(x_i)}D_t^ie^{\alpha}$$
-$$=\sum_{y_i=h_t(x_i)}D_t^ie^{-\alpha}+\sum_{y_i \ne h_t(x_i)}D_t^ie^{\alpha}$$
-$$=e^{-\alpha}\sum_{i=1}^{m}D_t^i + (e^{\alpha}-e^{-\alpha})\sum_{i=1}^{m}D_t^iI(y_i \ne h(x_i))$$
-From equation above, we can say that h_t^*(x) can replace h_t(x_i)  
-Next, we need to get \\(\alpha_t\\)
-$$\alpha_t=arg\min_{\alpha}e^{-\alpha}\sum_{i=1}^{m}D_t^i + (e^{\alpha}-e^{-\alpha})\sum_{i=1}^{m}D_t^iI(y_i \ne h_t^*(x_i))$$
-Calculate derivative of the right part and make it 0 to get \\(\alpha_t^*\\)
-We can get
-$$\alpha_t^*=\frac{1}{2}ln\frac{1-e_t}{e_t}$$
-$$e_t=\sum_{i=1}{m}D_t^iI(y_i \ne h_t^*(x_i))$$
-$$\downarrow$$
-$$e_t == \epsilon_t$$
-$$D_{t+1}^i=\exp(-y_i(f_{m-1}(x_i)+\alpha_th_t(x_i)))=D_t^i\exp(-y_i\alpha_th_t(x_i))$$
+$$D_t^i=\exp(-y_iH_{t-1}(x_i))$$  
+$$(\alpha_t,h_t(x))=arg\min_{\alpha,h}\sum_{i=1}^{m}D_t^i\exp(-y_i\alpha h(x_i))$$  
+For solving this equation, \\(h_t(x)\\) has another equation.  
+$$h_t^*(x)=arg\min_h\sum_{i=1}^{m}D_t^iI(y_i \ne h(x_i))$$  
+We can solve this by training a weak model.  
+Consider \\(y_i \in \\{-1,+1\\}\\)  
+$$\sum_{i=1}^{m}D_t^i\exp(-y_i\alpha h(x_i))$$  
+$$=\sum_{y_i=h_t(x_i)}D_t^ie^{-\alpha}+\sum_{y_i \ne h_t(x_i)}D_t^ie^{\alpha}$$  
+$$=\sum_{y_i=h_t(x_i)}D_t^ie^{-\alpha}+\sum_{y_i \ne h_t(x_i)}D_t^ie^{\alpha}$$  
+$$=e^{-\alpha}\sum_{i=1}^{m}D_t^i + (e^{\alpha}-e^{-\alpha})\sum_{i=1}^{m}D_t^iI(y_i \ne h(x_i))$$  
+From equation above, we can say that h_t^*(x) can replace h_t(x_i)    
+Next, we need to get \\(\alpha_t\\)  
+$$\alpha_t=arg\min_{\alpha}e^{-\alpha}\sum_{i=1}^{m}D_t^i + (e^{\alpha}-e^{-\alpha})\sum_{i=1}^{m}D_t^iI(y_i \ne h_t^*(x_i))$$  
+Calculate derivative of the right part and make it 0 to get \\(\alpha_t^*\\)  
+We can get  
+$$\alpha_t^*=\frac{1}{2}ln\frac{1-e_t}{e_t}$$  
+$$e_t=\sum_{i=1}{m}D_t^iI(y_i \ne h_t^*(x_i))$$  
+$$\downarrow$$  
+$$e_t == \epsilon_t$$  
+$$D_{t+1}^i=\exp(-y_i(f_{m-1}(x_i)+\alpha_th_t(x_i)))=D_t^i\exp(-y_i\alpha_th_t(x_i))$$  
 This equation is similar to the update equation in Adaboost except for the normalization coefficient \\(Z_t\\).
