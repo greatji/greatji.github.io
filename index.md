@@ -1,15 +1,19 @@
 ---
 layout: page
-title: Home
 permalink: /
 ---
-#### I am currently a PhD student in database group of [Tsinghua University](http://www.tsinghua.edu.cn/publish/thu2018en/index.html), working with professor [Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/). I received my bachelor degree in Computer Science from [Beijing University of Posts and Telecommunications](http://www.bupt.edu.cn/). I am interested in Distributed System, Data Integration, Query Optimization.
------
+#### I am currently a PhD student in database group of [Tsinghua University](http://www.tsinghua.edu.cn/publish/thu2018en/index.html), working with professor [Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/).I received my bachelor degree in Computer Science of [Beijing University of Posts and Telecommunications](http://www.bupt.edu.cn/). I am interested in Distributed System, Data Integration, Query Optimization, Machine Learning.
+
 ### Research Experience
-#### Intern at [CSAIL MIT](https://www.csail.mit.edu/), working with [Michael Stonebraker](https://en.wikipedia.org/wiki/Michael_Stonebraker)
------
+- 2017.12 - 2018.05 Intern at [CSAIL MIT](https://www.csail.mit.edu/), working with [Michael Stonebraker](https://en.wikipedia.org/wiki/Michael_Stonebraker)  
+
+### Work Experience
+- 2016.05 - 2016.09 Intern at [Sensetime](https://www.sensetime.com/), Data Platform Development  
+- 2017.06 - 2017.09 Intern at [Momo](https://www.immomo.com/), Distributed Storage Platform Development 
+- 2018.08 - 2018.12 Intern at [Alibaba](https://www.alibabagroup.com/en/global/home)  
+
 ### Completed Project
-#### Dima: Distributed In-memory Similarity-based Query Processing System
+- Dima: Distributed In-memory Similarity-based Query Processing System  
 [Github](https://github.com/TsinghuaDatabaseGroup/Dima.git) [PVLDB2017](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf) [Tech Report](http://dbgroup.cs.tsinghua.edu.cn/ligl/dima.pdf)  
 ![Dima Framework](figures/dima.png){:height="100px" width="100px"}  
 
