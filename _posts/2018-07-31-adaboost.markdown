@@ -1,25 +1,24 @@
 ---
 layout: post
-title:  "Boosting"
+title:  "AdaBoost"
 date:   2018-07-31 14:21:49 -0000
 categories: blog
 ---
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-## AdaBoost
 The AdaBoost algorithm of Freund and Schapire was the first practical boosting algorithm, and remains one of the most widely used and studied, with applications in numerous fields.
 ### Algorithm
 ![avatar](/figures/adaboost_program.png)
 <center><small>The boosting algorithm AdaBoost</small></center>
-\((x_i, y_i)\) is a tuple where \(x_i\) is features vector and \(y_i\) is class label.
-In the begining, all tuples have same weigh represented by distribution \(D_t^i\).
-In each iteration, we first train a weak learner using \(D_t\), as long as the learner is better than random guess,
+\\((x_i, y_i)\\) is a tuple where \\(x_i\\) is features vector and \\(y_i\\) is class label.
+In the begining, all tuples have same weigh represented by distribution \\(D_t^i\\).
+In each iteration, we first train a weak learner using \\(D_t\\), as long as the learner is better than random guess,
 the boosting can get a good result. If the learner is a decision tree, we should consider the weigh when calculating
-loss at every tree node for discriminator selection. By using the learner, we can get a weak hypothesis \(h_t\) which maps
+loss at every tree node for discriminator selection. By using the learner, we can get a weak hypothesis \\(h_t\\) which maps
 features space to {-1, 1}.
-\(\epsilon_t\) is the sum of weigh of misclassified tuples. By derivation, \(D_t\) can be updated as above where \(\alpha_t\) equals to
-\(\frac{1}{2}ln(\frac{1-\epsilon_t}{\epsilon_t})\).
-After several rounds, we can get a strong classfier by combining trained weak learner with learner weigh \(\alpha_t\).
-
+\\(\epsilon_t\\) is the sum of weigh of misclassified tuples. By derivation, \\(D_t\\) can be updated as above where \\(\alpha_t\\) equals to
+\\(\frac{1}{2}ln(\frac{1-\epsilon_t}{\epsilon_t})\\).
+After several rounds, we can get a strong classfier by combining trained weak learner with learner weigh \\(\alpha_t\\).
+![avatar](/figures/adaboost_visual.png)
 ### Derivation by Loss Function
 For simplicity we have $$H(x)=\sum_{t=1}^{T}\alpha_th_t(x)$$
 Forward Stagewise Additive Modeling  
@@ -72,3 +71,40 @@ $$e_t == \epsilon_t$$
 $$D_{t+1}^i=\exp(-y_i(f_{m-1}(x_i)+\alpha_th_t(x_i)))=D_t^i\exp(-y_i\alpha_th_t(x_i))$$  
 </center>
 This equation is similar to the update equation in Adaboost except for the normalization coefficient \\(Z_t\\).
+
+### Derivation by Upper Bound
+#### Theorem:
+Error is minimized by minimizing \\(Z_t\\)  
+#### Proof: 
+<center>
+$$D_{t+1}^i=\frac{1}{m} \cdot \frac{e^{-y_i\alpha_1h_1(x_i)}}{Z_1} \cdot \ldots \cdot \frac{e^{-y_i\alpha_Th_T(x_i)}}{Z_T}$$
+$$=\frac{e^{\sum_{t=1}^{T}-y_i\alpha_th_t(x_i)}}{m\prod_{t=1}^TZ_t}$$
+$$=\frac{e^{-y_i\sum_{t=1}^{T}\alpha_th_t(x_i)}}{m\prod_{t=1}^TZ_t}$$
+$$=\frac{e^{-y_if(x_i)}}{m\prod_{t=1}^TZ_t}$$
+</center>
+From figure below, we can find that \\(I(H(x_i) \ne y_i) \le e^{-y_if(x_i)}\\)
+![avatar](/figures/indicator_exp.png)
+Thus we have  
+<center>
+$$\frac{1}{m}\sum_{i=1}^{m}I(H(x_i) \ne y_i) \le \frac{1}{m}\sum_{i=1}^{m}e^{-y_if(x_i)}$$
+$$=\sum_{i=1}^{m}(\prod_{t=1}^{T}Z_t)D_{t+1}^i$$
+$$=\prod_{t=1}^{T}Z_t$$ Because \(\sum_{i=1}^{m}D_{t+1}^i == 1\)
+</center>
+According to this theorem, we should choose \\(\alpha_t\\) to minimize \\(Z_t\\)  
+Remember that \\(Z_t\\) is the normalization factor, so \\(Z_t=\min_{\alpha_t}\sum_{i=1}^{m}D_t^i\exp(-y_i\alpha_th_t(x_i))\\)  
+Making the first derivative of \\(Z_t\\) with respect to \\(\alpha_t\\) equals to zero  
+<center>
+$$\frac{\delta Z_t}{\delta \alpha_t}=-\sum_{i=1}^{m}D_t^iy_ih_t(x_i)e^{-y_i\alpha_th_t(x_i)}=0$$
+$$-\sum_{y_i=h_t(x_i)}D_t^ie^{-\alpha_t} + \sum_{y_i \ne h_t(x_i)}D_t^ie^{\alpha_t}=0$$
+$$-(1-\epsilon_t)e^{-\alpha_t} + \epsilon_te^{\alpha_t}=0$$
+$$\alpha_t=\frac{1}{2}ln\frac{1-\epsilon_t}{\epsilon_t}$$
+</center>
+The result is the same as deviations above.
+
+### References
+1. [Improved boosting algorithms using confidence](/resource/adaboost_1.pdf)
+2. [AdaBoost Czech Technical University, Prague](/resource/adaboost_2.pdf)
+3. [Additive Logistic Regression: a Statistic View of Boosting](/resource/adaboost_3.pdf)
+4. [On the Margin Explanation of Boosting Algorithms](/resource/adaboost_4.pdf)
+5. [Explaining AdaBoost](/resource/adaboost_5.pdf)
+6. [A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting*](/resource/adaboost_6.pdf)
