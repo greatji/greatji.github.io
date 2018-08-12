@@ -6,7 +6,7 @@ author: Ji Sun
 tags: "machine_learning"
 categories: blog
 ---
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 The AdaBoost algorithm of Freund and Schapire was the first practical boosting algorithm, and remains one of the most widely used and studied, with applications in numerous fields.
 ### Algorithm
 ![avatar](/figures/adaboost_program.png)

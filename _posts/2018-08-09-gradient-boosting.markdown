@@ -6,7 +6,7 @@ author: Ji Sun
 tags: "machine_learning"
 categories: blog
 ---
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ### Derivation of Algorithm
 As we all know, for any predictive learning problem, solution is trying to minimize the expected value of loss function \\(L(y, F(x))\\) over the joint distribution of all \\((y, \mathbf{x})\\)  
 <center>
