@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Equivalent SQL Mining"
-date:   2018-09-21 22:36:00 -0000
+date:   2018-09-21 13:20:00 +8000
 author: Ji Sun
 tags: "database"
 categories: blog
