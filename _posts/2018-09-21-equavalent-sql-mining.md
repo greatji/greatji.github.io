@@ -29,11 +29,13 @@ Thanks to ODPS UDF and UDJ, Our method can be integrated into ODPS SQL seemlessl
 ## Evaluation
 ### Performance
 Because of the limitation of Cosette and signature-based, they are not suitable for our project, In the evaluation, we only show the improvement of method proposed in this work comparing to Qi's method.  
-We randomly select 8 compilable DML sql queries and 2 special sql queries to show the scalability of the methods. Notice that No.9 query is very deep with lots of embedded joins and No.10 query is very wide with lots of columns in the aggregation operation. All the following experiments are conducted for self comparing in order to make comparator to walk through the whole queries.
+We randomly select 8 compilable DML sql queries and 2 special sql queries to show the scalability of the methods. Notice that No.9 query is very deep with lots of embedded joins and No.10 query is very wide with lots of columns in the aggregation operation. All the following experiments are conducted for self comparing in order to make comparator to walk through the whole queries.  
+
 | time/s |1#|2#|3#|4#|5#|6#|7#|8#|9#|10#|
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | Ji |0.268|1.355|0.712|0.617|0.184|0.348|0.233|0.35|14.146|0.388|
 | Qi |0.105|3.952|0.107|0.103|0.141|wrong|wrong|wrong|>1000|>1000|
+
 From table above, Qi's method made 3 misjudgement, and timeout for large queries(either deep or wide).
 ### Unsupported Cases
 In order to improve performence significantly, we ignored some criterion for sql equivalence judgement. However, we do not loss accuracy according to the result calculated from daily queries for the reasons following.
