@@ -21,10 +21,10 @@ SMT is the problem of determining whether such a formula is satisfiable. Imagine
 # Framework
 ### Program Structure
 For different operators, this method adopts different strategies. To avoid heavy overhead with large queries, we partition the expression according to Aggregation and TableScan operator horizontally and postpone process the join operators to accalerate join equivalence checking. Equivalence of complicated condition and math expressions is hard to deal with by structure matching, thus we still use microsoft z3 to solve SPJ subexpressions where most condition constrains and math expressions exist. For TableSink and AdhocSink，only the columns matching matters. For Aggregation, we check the aggregation function and parameter equavalence. And for table scan, we only check the table name. For other unknow or rare operator, we check nothing but make it transparent to the whole checking process.
-![program_structure.png](figures/sql_equivalence_framework.png) 
+![program_structure.png](/figures/sql_equivalence_framework.png) 
 ### Expressions Solver
 Within each part of the query (SPJ Subquery), the root is one of the SPJ operators and the leaves are Aggregation or TableScan. We construct one variable for each output column from leaf nodes. By matching Table Columns (TableScan) or using match information passed from below (Aggregation), we can get the first kind of constrain that is corresponding/matching input variables in two expressions to be compared must be the same. To determine if two SPJ subexpressions are equivalent, we need another constrain that is one tuple would be selected or not in both subexpressions, this is the condition constrain. Notice that we also need to check whether the output of each column on the root can be matched. After constructing these constrains, we use z3 to solve a unsatisfiable problem generated from them.
-![expression_solver.png](figures/expression_solver.png)
+![expression_solver.png](/figures/expression_solver.png)
 In the example above, two queries are equal if and only if we can prove that for all possible values of input variables $1,$2,$3,$4,$5,$6,$7,$8, the condition constrains and output expression of each column must be equal.
 
 
@@ -55,8 +55,8 @@ Thanks to ODPS UDF and UDJ, Our method can be integrated into ODPS SQL seemlessl
 |20|10300	|329857.9854368932	|8998025.726407766|
 |21|Average|1590155.1328669668|65276155.6693216|
 
-![sql_equivalence_cpu](figures/sql_equivalence_cpu.png) 
-![sql_equivalence_mem](figures/sql_equivalence_mem.png) 
+![sql_equivalence_cpu](/figures/sql_equivalence_cpu.png) 
+![sql_equivalence_mem](/figures/sql_equivalence_mem.png) 
 Besides, we found that huge amount of similar queries have much less runtime resource consuming than average which would bring little benefits to share, therefore, we prune these queries to further tailor the buckets.
 # Evaluation
 ### Performance
