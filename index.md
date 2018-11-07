@@ -18,6 +18,6 @@ permalink: /
 ![Dima Framework](figures/dima.png){:height="100px" width="100px"}  
 - Optimizing Human Involvement for Entity Matching and Entity Consolidation  
 [Sigmod2019 Under Review]  
-![Framework](figures/emgr.jpg){:height="100px" width="100px"}
+![Framework](figures/emgr.jpg){:height="100px" width="200px"}
 _____
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=pe1rfPbhTfzky5ISQu4qQ1Xwqj7y_bFjS5d6afAShdk&cl=ffffff&w=a"></script>
