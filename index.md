@@ -17,7 +17,7 @@ permalink: /
 [[Github](https://github.com/TsinghuaDatabaseGroup/Dima.git)] [[PVLDB2017](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf)] [[Tech Report](http://dbgroup.cs.tsinghua.edu.cn/ligl/dima.pdf)]  
 ![Dima Framework](figures/dima.png){:height="100px" width="100px"}  
 - Optimizing Human Involvement for Entity Matching and Entity Consolidation  
-[Sigmod2019 Under Review]
+[Sigmod2019 Under Review]  
 ![Framework](figures/emgr.jpg){:height="100px" width="100px"}
 _____
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=pe1rfPbhTfzky5ISQu4qQ1Xwqj7y_bFjS5d6afAShdk&cl=ffffff&w=a"></script>
