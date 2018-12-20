@@ -6,4 +6,4 @@ author: Ji Sun
 tags: "database optimizer deep_learning"
 categories: blog
 ---
-<center><embed src="/resource/cardinality.pdf" width="100%" height="100%"></center>
+<center><embed src="/resource/cardinality.pdf" width="100%" height="800"></center>
