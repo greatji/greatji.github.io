@@ -3,6 +3,7 @@ layout: default
 title: Blog
 permalink: /blog
 --- 
+- [2018-12-19-cardinality-estimation](/blog/2018/12/19/cardinality-estimation)
 - [2018-09-21-equivalent-sql-mining](/blog/2018/09/21/equivalent-sql-mining)
 - [2018-08-09-gradient-boosting](/blog/2018/08/09/gradient-boosting)
 - [2018-08-04-subexpressions](/blog/2018/08/03/subexpressions)
