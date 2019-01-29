@@ -33,7 +33,11 @@ join conditions is enough to depict the state, each action is represented as a o
 each bit represents whether a join condition was picked. Sequence of selected actions is input to the model
  as State, and the output is values for different actions.
 #### Model
-#### Deep Q-learning
+Because the future cost is also influenced by the order of history actions and RNN model can learn the order features
+of one sequence, we take LSTM as deep Q-network, the input dimention is the number of join conditions in total and
+the input length is the number of chosen actions before current state, which contains two hidden layers and one fully
+ connected linear layer as outputs.
+#### Deep Q-learnings
 #### Results
 ![value_convergence.png](/figures/value_convergence.png)
 ![reward_convergence.png](/figures/reward_convergence.png)
