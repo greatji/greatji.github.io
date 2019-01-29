@@ -37,8 +37,17 @@ Because the future cost is also influenced by the order of history actions and R
 of one sequence, we take LSTM as deep Q-network, the input dimention is the number of join conditions in total and
 the input length is the number of chosen actions before current state, which contains two hidden layers and one fully
  connected linear layer as outputs.
-#### Deep Q-learnings
+#### Deep Q-learning
+We adopt the memory-based Q-learning method with $$\epsilon$$ gradient, we optimize the query many times.
+In one episode, we select next actions according to the output of LSTM for current state greedily until all the join conditions
+ have been selected. In order to explore more policies at begining, we have chance to randomly select actions, but the chance would
+ decrease exponentially for convergence. Each time we select an action and step into next action, the tuple $$(S,a,S',R)$$ would be
+ stored into memory and the model will be updated once according to the sampled memories. We have many options for reward function.
+ Here we choose logarithm of total cost of the query as the reward of terminated state and zero for other states. According to the
+ Bellman Equation, the reward would be back propagated to every state in the end.
 #### Results
+As Figure below shows, our method for single query can converge within 1,000 episodes, loss convergence means that the model knows
+ the true value of each seen policy while the reward would takes more episodes to converge to the optimal cost, around 2,500 episodes.
 ![value_convergence.png](/figures/value_convergence.png)
 ![reward_convergence.png](/figures/reward_convergence.png)
  
