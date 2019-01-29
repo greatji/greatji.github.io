@@ -3,6 +3,7 @@ layout: default
 title: Blog
 permalink: /blog
 --- 
+- [2019-01-29-RL-Optimizer](/blog/2019/01/29/reinforcement-learning-query-optimize)
 - [2018-12-19-cardinality-estimation](/blog/2018/12/19/group-meeting-ml-cardinality)
 - [2018-09-21-equivalent-sql-mining](/blog/2018/09/21/equivalent-sql-mining)
 - [2018-08-09-gradient-boosting](/blog/2018/08/09/gradient-boosting)
