@@ -25,7 +25,7 @@ permalink: /
 ### Completed Project
 - Dima: Distributed In-memory Similarity-based Query Processing System  
 Ji Sun, Zeyuan Shang, Dong Deng, Guoliang Li   
-[[Github](https://github.com/TsinghuaDatabaseGroup/Dima.git)] [[Demo(VLDB2017)](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf)] [[Full(VLDB2019)](http://dbgroup.cs.tsinghua.edu.cn/ligl/dima.pdf)]  
+[[Github](https://github.com/TsinghuaDatabaseGroup/Dima.git)] [[Demo(VLDB2017)](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf)] [[Full Research(VLDB2019)](http://dbgroup.cs.tsinghua.edu.cn/ligl/dima.pdf)]  
 ![Dima Framework](figures/dima.png){:height="100px" width="100px"}  
 
 _____
