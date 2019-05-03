@@ -13,16 +13,16 @@ permalink: /
 - 2016.05 - 2016.09 Intern at Data Group, [Sensetime](https://www.sensetime.com/), Haidian, Beijing  
 
 ### Ongoing Project
-- Optimizing Human Involvement for Entity Matching and Entity Consolidation.  
-[Under Review]  
-![Framework](figures/emgr.jpg){:height="100px" width="200px"}
-
 - Automatic View Generation.  
 [Under Review]
 
 - Cost Estimator For Query Optimization.
 
 ### Completed Project
+- Optimizing Human Involvement for Entity Matching and Entity Consolidation.  
+[Under Review]  
+![Framework](figures/emgr.jpg){:height="100px" width="200px"}
+
 - Dima: Distributed In-memory Similarity-based Query Processing System  
 Ji Sun, Zeyuan Shang, Dong Deng, Guoliang Li   
 [[Github](https://github.com/TsinghuaDatabaseGroup/Dima.git)] [[Demo(VLDB2017)](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf)] [[Full Research(VLDB2019)](http://dbgroup.cs.tsinghua.edu.cn/ligl/dima.pdf)]  
