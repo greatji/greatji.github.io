@@ -24,7 +24,7 @@ permalink: /
 ![Framework](figures/emgr.jpg){:height="100px" width="200px"}
 
 - Dima: Distributed In-memory Similarity-based Query Processing System  
-Ji Sun, Zeyuan Shang, Dong Deng, Guoliang Li   
+Ji Sun, Zeyuan Shang, Dong Deng, Guoliang Li, Zhifeng Bao  
 [[Github](https://github.com/TsinghuaDatabaseGroup/Dima.git)] [[Demo(VLDB2017)](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf)] [[Full Research(VLDB2019)](http://dbgroup.cs.tsinghua.edu.cn/ligl/dima.pdf)]  
 ![Dima Framework](figures/dima.png){:height="100px" width="100px"}  
 
