@@ -19,12 +19,12 @@ permalink: /
 ### Completed Project
 - Optimizing Human Involvement for Entity Matching and Entity Consolidation.  
 [Under Review]  
-![Framework](figures/emgr.jpg){:height="100px" width="200px"}
+![Framework](figures/emgr.jpg){:height="100px" width="200px"}  
 
-- An End-to-End Cost Estimator.  
+- An End-to-End Learning-based Cost Estimator.  
 Ji Sun, Guoliang Li  
 [[Github](https://github.com/greatji/Learning-based-cost-estimator)] [[Preprint](http://arxiv.org/abs/1906.02560)]  
-![Dima Framework](figures/model.png){:height="100px" width="200px"}
+![Dima Framework](figures/model.png){:height="100px" width="200px"}  
 
 - Dima: Distributed In-memory Similarity-based Query Processing System.  
 Ji Sun, Zeyuan Shang, Guoliang Li, Dong Deng, Zhifeng Bao  
