@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Ji Sun
 email: sunji@greatji.com
-description: "PhD == Permanently Head Damage"
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  greatji
@@ -23,7 +23,7 @@ logo: /favicon.ico
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
