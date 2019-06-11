@@ -2,8 +2,8 @@
 layout: default
 permalink: /
 ---
-#### I am currently a PhD Candidate in database group of [Tsinghua University](http://www.tsinghua.edu.cn/publish/thu2018en/index.html), working with professor [Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/).I received my bachelor degree in Computer Science of [BUPT](http://www.bupt.edu.cn/). I am interested in Distributed System, Data Integration, Query Optimization, Machine Learning.
-[[blog](/blog)]
+#### I am currently a PhD Candidate in database group of [Tsinghua University](http://www.tsinghua.edu.cn/publish/thu2018en/index.html), working with professor [Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/).I received my bachelor degree in Computer Science of [BUPT](http://www.bupt.edu.cn/). I am interested in Distributed System, Data Integration, Query Optimization, Machine Learning.   
+[[Google Scholar](https://scholar.google.com/citations?user=ye4BnicAAAAJ&hl=en)] [[Blog](/blog)]
 ### Work Experience
 - 2017.12 - 2018.05 Intern at [CSAIL MIT](https://www.csail.mit.edu/), working with [Michael Stonebraker](https://en.wikipedia.org/wiki/Michael_Stonebraker), Boston, MA  
 - 2018.08 - 2018.12 Intern at Department of Computing Platform, [Alibaba](https://www.alibabagroup.com/en/global/home),Hangzhou,Zhejiang  
