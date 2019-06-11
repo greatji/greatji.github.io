@@ -4,13 +4,10 @@ permalink: /
 ---
 #### I am currently a PhD Candidate in database group of [Tsinghua University](http://www.tsinghua.edu.cn/publish/thu2018en/index.html), under the supervision of professor [Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/).I received my bachelor degree in Computer Science of [BUPT](http://www.bupt.edu.cn/). I am interested in Distributed System, Data Integration, Query Optimization, Machine Learning.   
 [[Google Scholar](https://scholar.google.com/citations?user=ye4BnicAAAAJ&hl=en)] [[Blog](/blog)]
-### Work Experience
-- 2017.12 - 2018.05 Intern at [CSAIL MIT](https://www.csail.mit.edu/), under the guidance of [Michael Stonebraker](https://en.wikipedia.org/wiki/Michael_Stonebraker), Boston, MA  
+
+### Work Experience  
 - 2018.08 - 2018.12 Intern at Department of Computing Platform, [Alibaba](https://www.alibabagroup.com/en/global/home),Hangzhou,Zhejiang  
-<!--
-- 2017.06 - 2017.09 Intern at Data Platform Group, [Momo](https://www.immomo.com/), Chaoyang, Beijing  
-- 2016.06 - 2016.09 Intern at Data Group, [Sensetime](https://www.sensetime.com/), Haidian, Beijing  
--->
+
 ### Ongoing Project
 - Optimization with Automatic View Selection.  
 
