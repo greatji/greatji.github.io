@@ -5,13 +5,13 @@ permalink: /
 #### I am currently a PhD Candidate in database group of [Tsinghua University](http://www.tsinghua.edu.cn/publish/thu2018en/index.html), under the supervision of professor [Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/).I received my bachelor degree in Computer Science of [BUPT](http://www.bupt.edu.cn/). I am interested in Distributed System, Data Integration, Query Optimization, Machine Learning.   
 [[Google Scholar](https://scholar.google.com/citations?user=ye4BnicAAAAJ&hl=en)] [[Blog](/blog)]
 
-### Work Experience  
+## Work Experience  
 - 2018.08 - 2018.12 Intern at Department of Computing Platform, [Alibaba](https://www.alibabagroup.com/en/global/home),Hangzhou,Zhejiang  
 
-### Ongoing Project
+## Ongoing Project
 - Optimization with Automatic View Selection.  
 
-### Completed Project
+## Completed Project
 - Optimizing Human Involvement for Entity Matching and Entity Consolidation.  
 [Under Review]  
 ![Framework](figures/emgr.jpg){:height="100px" width="200px"}  
