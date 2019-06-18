@@ -13,7 +13,8 @@ permalink: /
 
 ## Completed Project
 - Optimizing Human Involvement for Entity Matching and Entity Consolidation.  
-[Under Review]  
+**Ji Sun**, Dong Deng, Ihab Ilyas, Guoliang Li, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang
+[Under Review] [[Technical Report](http://arxiv.org/abs/1906.06574)]
 ![Framework](figures/emgr.jpg){:height="100px" width="200px"}  
 
 - An End-to-End Learning-based Cost Estimator.  
