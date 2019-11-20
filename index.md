@@ -20,7 +20,7 @@ permalink: /
 
 - An End-to-End Learning-based Cost Estimator.  
 **Ji Sun**, Guoliang Li  
-[[Github](https://github.com/greatji/Learning-based-cost-estimator)] [[Technical Report](https://arxiv.org/abs/1906.02560)] [[Full Research(VLDB2020)(To appear)](#)] 
+[[Github](https://github.com/greatji/Learning-based-cost-estimator)] [[Full Research(VLDB2020)](http://www.vldb.org/pvldb/vol13/p307-sun.pdf)] 
 ![Framework](figures/model.png){:height="100px" width="300px"}  
 
 - Dima: Distributed In-memory Similarity-based Query Processing System.  
