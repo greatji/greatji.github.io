@@ -21,17 +21,14 @@ Haitao Yuan, Guoliang Li, Ling Feng, **Ji Sun**, Yue Han
 - An End-to-End Learning-based Cost Estimator.  
 **Ji Sun**, Guoliang Li  
 [[Github](https://github.com/greatji/Learning-based-cost-estimator)] [[Full Research(VLDB2020)](http://www.vldb.org/pvldb/vol13/p307-sun.pdf)]   
-![Framework](figures/model.jpg){:height="100px" width="300px"}  
 
 - Optimizing Human Involvement for Entity Matching and Entity Consolidation.  
 **Ji Sun**, Dong Deng, Ihab Ilyas, Guoliang Li, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang  
 [Under Review] [[Technical Report](http://arxiv.org/abs/1906.06574)]  
-![Framework](figures/emgr.jpg){:height="100px" width="200px"}  
 
 - Dima: Distributed In-memory Similarity-based Query Processing System.  
 **Ji Sun**, Zeyuan Shang, Guoliang Li, Dong Deng, Zhifeng Bao  
 [[Github](https://github.com/TsinghuaDatabaseGroup/Dima.git)] [[Video](https://youtu.be/oJmNKK0O67U)] [[Demo(VLDB2017)](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf)] [[Full Research(VLDB2019)](http://www.vldb.org/pvldb/vol12/p961-sun.pdf)]  
-![Framework](figures/dima.jpg){:height="100px" width="100px"}  
 
 _____
 <div style="height:100px;width:200px;margin:0 auto">
