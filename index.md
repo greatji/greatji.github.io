@@ -16,7 +16,7 @@ Xuanhe Zhou, **Ji Sun**, Guoliang Li, Jianhua Feng
 
 - Automatic View Generation with Deep Learning and Reinforcement Learning.  
 Haitao Yuan, Guoliang Li, Ling Feng, **Ji Sun**, Yue Han  
-[Under Review]  
+[Full Research(ICDE2020)]    
 
 - An End-to-End Learning-based Cost Estimator.  
 **Ji Sun**, Guoliang Li  
