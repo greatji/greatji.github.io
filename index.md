@@ -12,7 +12,7 @@ permalink: /
 ## Researches
 - Query Performance Prediction for Concurrent Queries using Graph Embedding.  
 Xuanhe Zhou, **Ji Sun**, Guoliang Li, Jianhua Feng  
-[Under Review]  
+[Full Research(VLDB2020)]  
 
 - Automatic View Generation with Deep Learning and Reinforcement Learning.  
 Haitao Yuan, Guoliang Li, Ling Feng, **Ji Sun**, Yue Han  
