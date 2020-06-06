@@ -12,15 +12,23 @@ permalink: /
 ## Researches
 - Query Performance Prediction for Concurrent Queries using Graph Embedding.  
 Xuanhe Zhou, **Ji Sun**, Guoliang Li, Jianhua Feng  
-[Full Research(VLDB2020)]  
+[[Full Research(VLDB2020)](http://www.vldb.org/pvldb/vol13/p1416-zhou.pdf)]   
 
 - Automatic View Generation with Deep Learning and Reinforcement Learning.  
 Haitao Yuan, Guoliang Li, Ling Feng, **Ji Sun**, Yue Han  
-[Full Research(ICDE2020)]    
+[[Full Research(ICDE2020)](https://conferences.computer.org/icde/2020/pdfs/ICDE2020-5acyuqhpJ6L9P042wmjY1p/290300b501/290300b501.pdf)]    
 
 - An End-to-End Learning-based Cost Estimator.  
 **Ji Sun**, Guoliang Li  
-[[Github](https://github.com/greatji/Learning-based-cost-estimator)] [[Full Research(VLDB2020)](http://www.vldb.org/pvldb/vol13/p307-sun.pdf)]   
+[[Code](https://github.com/greatji/Learning-based-cost-estimator)] [[Full Research(VLDB2020)](http://www.vldb.org/pvldb/vol13/p307-sun.pdf)]   
+
+- Database Meets Artificial Intelligence: A Survey.  
+Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**  
+[[Full Research(TKDE2020)](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/aidb.pdf)]
+
+- Hybrid Entity Resolution Approach for E-commerce Products.  
+**Ji Sun**, Guoliang Li  
+[[Code](https://github.com/greatji/SigmodProgrammingContest2020_code)] [[Poster(Sigmod2020)](http://www.inf.uniroma3.it/db/sigmod2020contest/posters/DBTHU_sigmod_programming_contest_2020_poster.pdf)]  
 
 - Optimizing Human Involvement for Entity Matching and Entity Consolidation.  
 **Ji Sun**, Dong Deng, Ihab Ilyas, Guoliang Li, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang  
@@ -28,10 +36,10 @@ Haitao Yuan, Guoliang Li, Ling Feng, **Ji Sun**, Yue Han
 
 - Dima: Distributed In-memory Similarity-based Query Processing System.  
 **Ji Sun**, Zeyuan Shang, Guoliang Li, Dong Deng, Zhifeng Bao  
-[[Github](https://github.com/TsinghuaDatabaseGroup/Dima.git)] [[Video](https://youtu.be/oJmNKK0O67U)] [[Demo(VLDB2017)](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf)] [[Full Research(VLDB2019)](http://www.vldb.org/pvldb/vol12/p961-sun.pdf)]  
+[[Code](https://github.com/TsinghuaDatabaseGroup/Dima.git)] [[Video](https://youtu.be/oJmNKK0O67U)] [[Demo(VLDB2017)](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf)] [[Full Research(VLDB2019)](http://www.vldb.org/pvldb/vol12/p961-sun.pdf)]  
 
 ## Selected Awards
-- ACM Sigmod Programming Contest 2020 [Finalist](http://www.inf.uniroma3.it/db/sigmod2020contest/leaders.html), SIGMOD, 2020
+- ACM Sigmod Programming Contest [Finalist](resource/Ji_Sun.pdf), SIGMOD, 2020
 - Student Travel Award, VLDB, 2019
 - Mei Yiqi Scholarship, Tsinghua University, 2017, 2019
 - Outstanding Graduate, Beijing Gov., 2016
