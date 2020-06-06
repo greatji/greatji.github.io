@@ -8,6 +8,7 @@ permalink: /
 
 ## Work Experience  
 - 2018.08 - 2018.12 Intern at Department of Computing Platform, [Alibaba](https://www.alibabagroup.com/en/global/home),Hangzhou,Zhejiang  
+- 2017.11 - 2018.05 Research Asistant of CSAIL, [MIT](https://www.csail.mit.edu/), Boston, MA  
 
 ## Researches
 - Query Performance Prediction for Concurrent Queries using Graph Embedding.  
