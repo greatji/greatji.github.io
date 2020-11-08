@@ -21,7 +21,7 @@ Haitao Yuan, Guoliang Li, Ling Feng, **Ji Sun**, Yue Han
 
 - An End-to-End Learning-based Cost Estimator.  
 **Ji Sun**, Guoliang Li  
-[[Code](https://github.com/greatji/Learning-based-cost-estimator)] [[Full Research(VLDB2020)](http://www.vldb.org/pvldb/vol13/p307-sun.pdf)]   
+[[Code](https://github.com/greatji/Learning-based-cost-estimator)] [[Full Research(VLDB2020)](http://www.vldb.org/pvldb/vol13/p307-sun.pdf)][[slide](resource/vldb20.pdf)]   
 
 - Database Meets Artificial Intelligence: A Survey.  
 Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**  
