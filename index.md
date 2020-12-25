@@ -11,6 +11,15 @@ permalink: /
 - 2017.11 - 2018.05 Research Asistant of CSAIL, [MIT](https://www.csail.mit.edu/), Boston, MA  
 
 ## Researches
+
+- Learned Cardinality Estimation for Similarity Queries.  
+**Ji Sun**, Nan Tang, Guoliang Li  
+[[Full Research(SIGMOD2021)]()]   
+
+- An Autonomous Materialized View Management System with Deep Reinforcement Learning.  
+Yue Han, Guoliang Li, Haitao Yuan, **Ji Sun**  
+[[Short (ICDE2021)]()]   
+
 - Query Performance Prediction for Concurrent Queries using Graph Embedding.  
 Xuanhe Zhou, **Ji Sun**, Guoliang Li, Jianhua Feng  
 [[Full Research(VLDB2020)](http://www.vldb.org/pvldb/vol13/p1416-zhou.pdf)]   
