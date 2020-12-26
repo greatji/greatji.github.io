@@ -13,7 +13,7 @@ permalink: /
 ## Researches
 
 - Learned Cardinality Estimation for Similarity Queries.  
-**Ji Sun**, Nan Tang, Guoliang Li  
+**Ji Sun**, Guoliang Li, Nan Tang  
 [[Full Research(SIGMOD2021)]()]   
 
 - An Autonomous Materialized View Management System with Deep Reinforcement Learning.  
