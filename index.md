@@ -49,7 +49,7 @@ Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**
 
 - Optimizing Human Involvement for Entity Matching and Entity Consolidation.  
 **Ji Sun**, Dong Deng, Ihab Ilyas, Guoliang Li, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang  
-[Under Review] [[Technical Report](http://arxiv.org/abs/1906.06574)]  
+[[Technical Report](http://arxiv.org/abs/1906.06574)]  
 
 - Dima: Distributed In-memory Similarity-based Query Processing System.  
 **Ji Sun**, Zeyuan Shang, Guoliang Li, Dong Deng, Zhifeng Bao  
