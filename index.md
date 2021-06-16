@@ -64,7 +64,9 @@ Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**
 - National Scholarship, Ministry of Education, 2013
 
 ## Services
-- Committee Member of pVLDB Reproducibility
+- Committee Member of pVLDB Reproducibility  
+- Review of ACM TODS  
+- Review of JCST  
 
 _____
 <div style="height:100px;width:200px;margin:0 auto">
