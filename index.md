@@ -3,7 +3,7 @@ layout: default
 title: Home
 permalink: /
 ---
-#### I am currently a PhD Candidate in database group of [Tsinghua University](http://www.tsinghua.edu.cn/publish/thu2018en/index.html), under the supervision of professor [Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/).I received my bachelor degree in Computer Science of [BUPT](http://www.bupt.edu.cn/). I am interested in Distributed System, Similarity Search and Machine Learning for Query Optimization.   
+#### I received my Ph.D in database group of [Tsinghua University](http://www.tsinghua.edu.cn/publish/thu2018en/index.html), under the supervision of professor [Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/).I received my bachelor degree in Computer Science of [BUPT](http://www.bupt.edu.cn/). I am interested in Distributed System, Similarity Search and Machine Learning for Query Optimization.   
 [[Google Scholar](https://scholar.google.com/citations?user=ye4BnicAAAAJ&hl=en)] [[Github](https://github.com/greatji)]  
 
 ## Work Experience  
@@ -11,6 +11,13 @@ permalink: /
 - 2017.11 - 2018.05 Research Asistant of CSAIL, [MIT](https://www.csail.mit.edu/), Boston, MA  
 
 ## Researches
+- DBMind: A Self-Driving Platform in openGauss.  
+Xuanhe Zhou,Lianyuan Jin,**Ji Sun**,Xinyang Zhao,et al.  
+[[Demo(VLDB2021)]()]
+
+- openGauss: An Autonomous Database System.  
+Guoliang Li,Xuanhe Zhou,**Ji Sun**,Xiang Yu,et al.  
+[[Full Industry(VLDB2021)]()]
 
 - Learned Cardinality Estimation for Similarity Queries.  
 **Ji Sun**, Guoliang Li, Nan Tang  
