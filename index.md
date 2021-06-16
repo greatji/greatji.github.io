@@ -56,6 +56,9 @@ Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**
 [[Code](https://github.com/TsinghuaDatabaseGroup/Dima.git)] [[Video](https://youtu.be/oJmNKK0O67U)] [[Demo(VLDB2017)](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf)] [[Full Research(VLDB2019)](http://www.vldb.org/pvldb/vol12/p961-sun.pdf)]  
 
 ## Selected Awards
+- Outstanding Graduate, Beijing Gov., 2020
+- 84 Future Innovation Scholarship, Tsinghua University, 2020
+- Xiaomi Scholarship, Tsinghua University, 2020
 - ACM Sigmod Programming Contest [Finalist](resource/Ji_Sun.pdf), SIGMOD, 2020
 - Student Travel Award, VLDB, 2019
 - Mei Yiqi Scholarship, Tsinghua University, 2017, 2019
