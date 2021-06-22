@@ -57,7 +57,7 @@ Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**
 
 ## Selected Awards
 - Outstanding Graduate of Beijing, Beijing Gov., 2021
-- Outstabding Grafuate, Department of Computer Science of Tsinghua, 2021
+- Outstabding Graduate, Department of Computer Science of Tsinghua, 2021
 - 84 Future Innovation Scholarship, Tsinghua University, 2020
 - Xiaomi Scholarship, Tsinghua University, 2020
 - ACM Sigmod Programming Contest [Finalist](resource/Ji_Sun.pdf), SIGMOD, 2020
