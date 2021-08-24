@@ -11,6 +11,10 @@ permalink: /
 - 2017.11 - 2018.05 Research Asistant of CSAIL, [MIT](https://www.csail.mit.edu/), Boston, MA  
 
 ## Researches
+- Learned Cardinality Estimation: A Design Space Exploration and a Comparative Evaluation.  
+**Ji Sun**, Jintao Zhang, Zhaoyan Sun, Guoliang Li, Nan Tang, et al.  
+[[Code]()] [[E&A(VLDB2022)]()]
+
 - DBMind: A Self-Driving Platform in openGauss.  
 Xuanhe Zhou,Lianyuan Jin,**Ji Sun**,Xinyang Zhao,et al.  
 [[Demo(VLDB2021)]()]
