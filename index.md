@@ -12,24 +12,24 @@ permalink: /
 
 ## Researches
 - Learned Cardinality Estimation: A Design Space Exploration and a Comparative Evaluation.  
-**Ji Sun**, Jintao Zhang, Zhaoyan Sun, Guoliang Li, Nan Tang, et al.  
-[[Code]()] [[E&A(VLDB2022)]()]
+**Ji Sun**, Jintao Zhang, Zhaoyan Sun, Guoliang Li, Nan Tang  
+[[Code](https://github.com/jt-zhang/CardinalityEstimationTestbed)] [[E&A(VLDB2022)](http://da.qcri.org/ntang/pubs/[vldb22]learned.cardinality.pdf)]
 
 - DBMind: A Self-Driving Platform in openGauss.  
 Xuanhe Zhou,Lianyuan Jin,**Ji Sun**,Xinyang Zhao,et al.  
-[[Demo(VLDB2021)]()]
+[[Demo(VLDB2021)](http://vldb.org/pvldb/vol14/p2743-zhou.pdf)]
 
 - openGauss: An Autonomous Database System.  
 Guoliang Li,Xuanhe Zhou,**Ji Sun**,Xiang Yu,et al.  
-[[Full Industry(VLDB2021)]()]
+[[Full Industry(VLDB2021)](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-opengauss.pdf)]
 
 - Learned Cardinality Estimation for Similarity Queries.  
 **Ji Sun**, Guoliang Li, Nan Tang  
-[[Full Research(SIGMOD2021)]()]   
+[[Full Research(SIGMOD2021)](https://dl.acm.org/doi/pdf/10.1145/3448016.3452790)]   
 
 - An Autonomous Materialized View Management System with Deep Reinforcement Learning.  
 Yue Han, Guoliang Li, Haitao Yuan, **Ji Sun**  
-[[Short (ICDE2021)]()]   
+[[Short (ICDE2021)](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/view-icde21.pdf)]   
 
 - Query Performance Prediction for Concurrent Queries using Graph Embedding.  
 Xuanhe Zhou, **Ji Sun**, Guoliang Li, Jianhua Feng  
