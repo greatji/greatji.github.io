@@ -7,8 +7,14 @@ permalink: /
 [[Google Scholar](https://scholar.google.com/citations?user=ye4BnicAAAAJ&hl=en)] [[Github](https://github.com/greatji)]  
 
 ## Work Experience  
+- 2021.07 - present Researcher at Huawei, Haidian, Beijing  
+  Works on build-in AI for openGauss  
+- 2020.06 - 2020.09 Intern at Damo Academy, [Alibaba](https://www.alibabagroup.com/en/global/home),Hangzhou,Zhejiang  
+  Works on automatic relational database generation  
 - 2018.08 - 2018.12 Intern at Department of Computing Platform, [Alibaba](https://www.alibabagroup.com/en/global/home),Hangzhou,Zhejiang  
+  Works on automatic materialized view selection  
 - 2017.11 - 2018.05 Research Asistant of CSAIL, [MIT](https://www.csail.mit.edu/), Boston, MA  
+  Works on end-to-end entity consolidation framework  
 
 ## Researches
 - Learned Cardinality Estimation: A Design Space Exploration and a Comparative Evaluation.  
