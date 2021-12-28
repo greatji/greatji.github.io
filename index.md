@@ -66,6 +66,7 @@ Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**
 [[Code](https://github.com/TsinghuaDatabaseGroup/Dima.git)] [[Video](https://youtu.be/oJmNKK0O67U)] [[Demo(VLDB2017)](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf)] [[Full Research(VLDB2019)](http://www.vldb.org/pvldb/vol12/p961-sun.pdf)]  
 
 ## Selected Awards
+- Excellent Doctoral Dissertation Award, China Computer Federation(CCF), 2021
 - Outstanding Graduate of Beijing, Beijing Gov., 2021
 - Outstabding Graduate, Department of Computer Science of Tsinghua, 2021
 - 84 Future Innovation Scholarship, Tsinghua University, 2020
