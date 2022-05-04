@@ -31,7 +31,7 @@ Guoliang Li,Xuanhe Zhou,**Ji Sun**,Xiang Yu,et al.
 
 - Learned Cardinality Estimation for Similarity Queries.  
 **Ji Sun**, Guoliang Li, Nan Tang  
-[[Full Research(SIGMOD2021)](https://dl.acm.org/doi/pdf/10.1145/3448016.3452790)]   
+[[Full Research(SIGMOD2021)](https://dl.acm.org/doi/pdf/10.1145/3448016.3452790)] [[Slides](resource/SIGMOD21-fp36.pdf)]   
 
 - An Autonomous Materialized View Management System with Deep Reinforcement Learning.  
 Yue Han, Guoliang Li, Haitao Yuan, **Ji Sun**  
