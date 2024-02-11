@@ -17,6 +17,9 @@ permalink: /
   Works on end-to-end entity consolidation framework  
 
 ## Researches
+- GaussML: An End-to-End In-Database Machine Learning System.
+[[Full](resource/gaussmlicde.pdf)]
+
 - Learned Cardinality Estimation: A Design Space Exploration and a Comparative Evaluation.  
 **Ji Sun**, Jintao Zhang, Zhaoyan Sun, Guoliang Li, Nan Tang  
 [[Code](https://github.com/jt-zhang/CardinalityEstimationTestbed)] [[E&A(VLDB2022)](http://da.qcri.org/ntang/pubs/[vldb22]learned.cardinality.pdf)]
