@@ -17,7 +17,8 @@ permalink: /
   Works on end-to-end entity consolidation framework  
 
 ## Researches
-- GaussML: An End-to-End In-Database Machine Learning System.
+- GaussML: An End-to-End In-Database Machine Learning System.  
+Guoliang Li, **Ji Sun**, Lijie Xu, Shifu Li, Jiang Wang, Wen Nie  
 [[Full](resource/gaussmlicde.pdf)]
 
 - Learned Cardinality Estimation: A Design Space Exploration and a Comparative Evaluation.  
