@@ -19,11 +19,11 @@ permalink: /
 ## Researches
 - GaussML: An End-to-End In-Database Machine Learning System.  
 Guoliang Li, **Ji Sun**, Lijie Xu, Shifu Li, Jiang Wang, Wen Nie  
-[[Full(ICDE2024)(to appear)](resource/gaussmlicde.pdf)]
+[[Full(ICDE2024)](resource/gaussmlicde.pdf)]  [[Slide](resource/GaussML.pptx)]
 
 - Learned Cardinality Estimation: A Design Space Exploration and a Comparative Evaluation.  
 **Ji Sun**, Jintao Zhang, Zhaoyan Sun, Guoliang Li, Nan Tang  
-[[Code](https://github.com/jt-zhang/CardinalityEstimationTestbed)] [[E&A(VLDB2022)](http://da.qcri.org/ntang/pubs/[vldb22]learned.cardinality.pdf)]
+[[Code](https://github.com/jt-zhang/CardinalityEstimationTestbed)] [[E&A(VLDB2022)](http://da.qcri.org/ntang/pubs/[vldb22]learned.cardinality.pdf)] [[Slide](resource/Research_321.pptx)]
 
 - DBMind: A Self-Driving Platform in openGauss.  
 Xuanhe Zhou,Lianyuan Jin,**Ji Sun**,Xinyang Zhao,et al.  
