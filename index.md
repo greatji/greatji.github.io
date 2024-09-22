@@ -9,10 +9,6 @@ permalink: /
 ## Work Experience  
 - 2021.07 - present Researcher at Huawei, Haidian, Beijing  
   Works on build-in AI for openGauss/GaussDB (VectorDB, AI-based Optimizer, LLM, NewHardware)  
-- 2020.06 - 2020.09 Intern at Damo Academy, [Alibaba](https://www.alibabagroup.com/en/global/home),Hangzhou,Zhejiang  
-  Works on automatic relational database generation  
-- 2018.08 - 2018.12 Intern at Department of Computing Platform, [Alibaba](https://www.alibabagroup.com/en/global/home),Hangzhou,Zhejiang  
-  Works on automatic materialized view selection  
 - 2017.11 - 2018.05 Research Asistant of CSAIL, [MIT](https://www.csail.mit.edu/), Boston, MA  
   Works on end-to-end entity consolidation framework  
 
@@ -81,6 +77,9 @@ Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**
 - Outstanding Graduate of Beijing, Beijing Gov., 2016
 - First Prize Scholarship, BUPT, 2014 & 2015
 - National Scholarship, Ministry of Education, 2013
+
+## Talks
+- What Do We Really Need for Vector Database [CloudDB Workshop @ VLDB2024][[Slides](resource/vectordb-keynote-vldb24.pdf)]
 
 ## Services
 - Committee Member of pVLDB Reproducibility  
