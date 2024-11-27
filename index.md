@@ -15,7 +15,7 @@ permalink: /
 ## Researches
 - Boosting Accuracy and Efficiency for Vector Retrieval with Local Scaling Graph.  
 Hongya Wang, WenLong Wu, Cong Luo, Aobei Bian, Chunguang Meng, Yishuo Wu, **Ji Sun**
-[[Full(ICDE2024)]]
+[[Full(ICDE2025)]()]
 
 - GaussML: An End-to-End In-Database Machine Learning System.  
 Guoliang Li, **Ji Sun**, Lijie Xu, Shifu Li, Jiang Wang, Wen Nie  
