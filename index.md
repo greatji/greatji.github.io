@@ -14,11 +14,11 @@ permalink: /
 
 ## Researches
 - GaussDB-Vector: A Large-Scale Persistent Real-Time Vector Database for LLM Applications.  
-Guoliang Li, **Ji Sun**, James Jie Pan, Jiang Wang, Yongqing Xie, Ruicheng Liu, Wen Nie
+Guoliang Li, **Ji Sun**, James Jie Pan, Jiang Wang, Yongqing Xie, Ruicheng Liu, Wen Nie  
 [[Full(VLDB2025)](To appear)]
 
 - Boosting Accuracy and Efficiency for Vector Retrieval with Local Scaling Graph.  
-Hongya Wang, WenLong Wu, Cong Luo, Aobei Bian, Chunguang Meng, Yishuo Wu, **Ji Sun**
+Hongya Wang, WenLong Wu, Cong Luo, Aobei Bian, Chunguang Meng, Yishuo Wu, **Ji Sun**  
 [[Full(ICDE2025)](To appear)]
 
 - GaussML: An End-to-End In-Database Machine Learning System.  
