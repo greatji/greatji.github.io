@@ -6,8 +6,9 @@ permalink: /
 #### I received my Ph.D in database group of [Tsinghua University](http://www.tsinghua.edu.cn/publish/thu2018en/index.html), under the supervision of professor [Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/).I received my bachelor degree in Computer Science of [BUPT](http://www.bupt.edu.cn/). I am interested in Distributed System, Similarity Search and Machine Learning for Query Optimization.   
 [[Google Scholar](https://scholar.google.com/citations?user=ye4BnicAAAAJ&hl=en)] [[Github](https://github.com/greatji)]  
 
-## Work Experience  
-- 2021.07 - present Researcher at Huawei, Haidian, Beijing  
+## Work Experience 
+- I am going back to Tsinghua University to be a research assistant professor.  
+- 2021.07 - 2025.07 Researcher at Huawei, Haidian, Beijing  
   Works on build-in AI for openGauss/GaussDB (VectorDB, AI-based Optimizer, LLM, NewHardware)  
 - 2017.11 - 2018.05 Research Asistant of CSAIL, [MIT](https://www.csail.mit.edu/), Boston, MA  
   Works on end-to-end entity consolidation framework  
