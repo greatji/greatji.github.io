@@ -13,6 +13,15 @@ permalink: /
 - 2017.11 - 2018.05 Research Asistant of CSAIL, [MIT](https://www.csail.mit.edu/), Boston, MA  
   Works on end-to-end entity consolidation framework  
 
+## News!
+Our data agent system AgenticData got the top score on [DABstep Benchmark](https://huggingface.co/spaces/adyen/DABstep):
+<img width="1877" height="900" alt="image" src="https://github.com/user-attachments/assets/b856e265-0da7-41ef-8f5d-68308aedce69" />
+
+
+<details>
+
+<summary>Researches</summary>
+
 ## Researches
 - GaussDB-Vector: A Large-Scale Persistent Real-Time Vector Database for LLM Applications.  
 **Ji Sun**, Guoliang Li, James Jie Pan, Jiang Wang, Yongqing Xie, Ruicheng Liu, Wen Nie  
@@ -73,6 +82,8 @@ Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**
 - Dima: Distributed In-memory Similarity-based Query Processing System.  
 **Ji Sun**, Zeyuan Shang, Guoliang Li, Dong Deng, Zhifeng Bao  
 [[Code](https://github.com/TsinghuaDatabaseGroup/Dima.git)] [[Video](https://youtu.be/oJmNKK0O67U)] [[Demo(VLDB2017)](http://www.vldb.org/pvldb/vol10/p1925-sun.pdf)] [[Full Research(VLDB2019)](http://www.vldb.org/pvldb/vol12/p961-sun.pdf)]  
+
+</details>
 
 ## Selected Awards
 - Excellent Doctoral Dissertation Award, China Computer Federation(CCF), 2021
