@@ -17,12 +17,11 @@ permalink: /
 Our data agent system AgenticData got the top score on [DABstep Benchmark](https://huggingface.co/spaces/adyen/DABstep):
 <img width="1877" height="900" alt="image" src="https://github.com/user-attachments/assets/b856e265-0da7-41ef-8f5d-68308aedce69" />
 
-
+## Researches
 <details>
 
-<summary>Researches</summary>
+<summary>open researches</summary>
 
-## Researches
 - GaussDB-Vector: A Large-Scale Persistent Real-Time Vector Database for LLM Applications.  
 **Ji Sun**, Guoliang Li, James Jie Pan, Jiang Wang, Yongqing Xie, Ruicheng Liu, Wen Nie  
 [[Full(VLDB2025)](resource/p2114-li (1).pdf)]
