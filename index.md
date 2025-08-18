@@ -14,8 +14,10 @@ permalink: /
   Works on end-to-end entity consolidation framework  
 
 ## News!
-Our data agent system AgenticData got the top score on [DABstep Benchmark](https://huggingface.co/spaces/adyen/DABstep):
-<img width="1877" height="900" alt="image" src="https://github.com/user-attachments/assets/b856e265-0da7-41ef-8f5d-68308aedce69" />
+Our data agent system AgenticData got the top score on both [DABstep Benchmark](https://huggingface.co/spaces/adyen/DABstep) and [Spider-2.0-Lite](https://spider2-sql.github.io/):
+<img width="550" height="400" alt="image" src="https://github.com/user-attachments/assets/b856e265-0da7-41ef-8f5d-68308aedce69" />
+<img width="270" height="900" alt="image" src="https://github.com/user-attachments/assets/2eeb52d3-0799-44b9-be10-ca4aa31e3cb8" />
+
 
 ## Researches
 
