@@ -14,13 +14,14 @@ permalink: /
   Works on end-to-end entity consolidation framework  
 
 ## News!
-Our data agent system AgenticData got the top score on both [DABstep Benchmark](https://huggingface.co/spaces/adyen/DABstep) and [Spider-2.0-Lite](https://spider2-sql.github.io/)
+- We release our commercial vector database product [VexDB v3.0.0](https://www.vexdb.com)  
+- Our data agent system AgenticData got the top score on both [DABstep Benchmark](https://huggingface.co/spaces/adyen/DABstep) and [Spider-2.0-Lite](https://spider2-sql.github.io/)
 
 ## Researches
 
 - GaussDB-Vector: A Large-Scale Persistent Real-Time Vector Database for LLM Applications.  
 **Ji Sun**, Guoliang Li, James Jie Pan, Jiang Wang, Yongqing Xie, Ruicheng Liu, Wen Nie  
-[[Full(VLDB2025)](resource/p2114-li (1).pdf)]
+[[Full(VLDB2025)](resource/p2114-li (1).pdf)] [[Slides](resource/gaussdb-vector.pdf)]  
 
 - Boosting Accuracy and Efficiency for Vector Retrieval with Local Scaling Graph.  
 Hongya Wang, WenLong Wu, Cong Luo, Aobei Bian, Chunguang Meng, Yishuo Wu, **Ji Sun**  
@@ -28,11 +29,11 @@ Hongya Wang, WenLong Wu, Cong Luo, Aobei Bian, Chunguang Meng, Yishuo Wu, **Ji S
 
 - GaussML: An End-to-End In-Database Machine Learning System.  
 Guoliang Li, **Ji Sun**, Lijie Xu, Shifu Li, Jiang Wang, Wen Nie  
-[[Full(ICDE2024)](resource/gaussmlicde.pdf)]  [[Slide](resource/GaussML.pptx)]
+[[Full(ICDE2024)](resource/gaussmlicde.pdf)]  [[Slides](resource/GaussML.pptx)]
 
 - Learned Cardinality Estimation: A Design Space Exploration and a Comparative Evaluation.  
 **Ji Sun**, Jintao Zhang, Zhaoyan Sun, Guoliang Li, Nan Tang  
-[[Code](https://github.com/jt-zhang/CardinalityEstimationTestbed)] [[E&A(VLDB2022)](http://da.qcri.org/ntang/pubs/[vldb22]learned.cardinality.pdf)] [[Slide](resource/Research_321.pptx)]
+[[Code](https://github.com/jt-zhang/CardinalityEstimationTestbed)] [[E&A(VLDB2022)](http://da.qcri.org/ntang/pubs/[vldb22]learned.cardinality.pdf)] [[Slides](resource/Research_321.pptx)]
 
 - DBMind: A Self-Driving Platform in openGauss.  
 Xuanhe Zhou,Lianyuan Jin,**Ji Sun**,Xinyang Zhao,et al.  
