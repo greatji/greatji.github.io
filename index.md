@@ -14,8 +14,8 @@ permalink: /
   Works on end-to-end entity consolidation framework  
 
 ## News!
-- We release our commercial vector database product [VexDB v3.0.0](https://www.vexdb.com)  
-- Our data agent system AgenticData got the top score on both [DABstep Benchmark](https://huggingface.co/spaces/adyen/DABstep) and [Spider-2.0-Lite](https://spider2-sql.github.io/)
+- 2025.9.15 We release our commercial vector database product [VexDB v3.0.0](https://www.vexdb.com)  
+- 2025.8.7  Our data agent system AgenticData got the top score on both [DABstep Benchmark](https://huggingface.co/spaces/adyen/DABstep) and [Spider-2.0-Lite](https://spider2-sql.github.io/)
 
 ## Researches
 
