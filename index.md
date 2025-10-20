@@ -93,7 +93,8 @@ Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**
 - National Scholarship, Ministry of Education, 2013
 
 ## Talks
-- What Do We Really Need for Vector Database [CloudDB Workshop @ VLDB2024][[Slides](resource/vectordb-keynote-vldb24.pdf)]
+- What Do We Really Need for Vector Database [CloudDB Workshop @ VLDB2024][[Slides](resource/vectordb-keynote-vldb24.pdf)]  
+- Waking up dormant data: techniques of multimodal data analysis [CSC 696J@Arizona State University][[Slides]()]
 
 ## Services
 - Committee Member of pVLDB Reproducibility  
