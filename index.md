@@ -93,8 +93,10 @@ Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**
 - National Scholarship, Ministry of Education, 2013
 
 ## Talks
+- openGauss：构建内外兼修的数据库智能自治能力 [ADL@CCF][[Slides]()]
 - What Do We Really Need for Vector Database [CloudDB Workshop @ VLDB2024][[Slides](resource/vectordb-keynote-vldb24.pdf)]  
 - Waking up dormant data: techniques of multimodal data analysis [CSC 696J@Arizona State University][[Slides]()]
+- 数据智能体：自主数据处理的新范式 [DACon@DataFun][[Slides]()]
 
 ## Services
 - Committee Member of pVLDB Reproducibility  
