@@ -19,6 +19,10 @@ permalink: /
 
 ## Researches
 
+- A Topology-Aware Localized Update Strategy for Graph-Based ANN Index.
+Song Yu, Shengyuan Lin, Shufeng Gong, Yongqing Xie, Ruicheng Liu, Yijie Zhou, **Ji Sun**, Yanfeng Zhang, Guoliang Li, Ge Yu
+[[Full(VLDB2026)](To appear)]
+
 - GaussDB-Vector: A Large-Scale Persistent Real-Time Vector Database for LLM Applications.  
 **Ji Sun**, Guoliang Li, James Jie Pan, Jiang Wang, Yongqing Xie, Ruicheng Liu, Wen Nie  
 [[Full(VLDB2025)](resource/p2114-li (1).pdf)] [[Slides](resource/gaussdb-vector.pdf)]  
