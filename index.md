@@ -21,23 +21,23 @@ permalink: /
 
 - SVFusion: A CPU-GPU Co-Processing Architecture for Large-Scale Real-Time Vector Search.  
 Yuchen Peng, Dingyu Yang, Zhongle Xie, **Ji Sun**, Lidan Shou, Ke Chen, Gang Chen  
-[[Full(VLDB2026)](To appear)]
+[[Full Research(VLDB2026)](To appear)]
 
 - A Topology-Aware Localized Update Strategy for Graph-Based ANN Index.  
 Song Yu, Shengyuan Lin, Shufeng Gong, Yongqing Xie, Ruicheng Liu, Yijie Zhou, **Ji Sun**, Yanfeng Zhang, Guoliang Li, Ge Yu  
-[[Full(VLDB2026)](To appear)]
+[[Full Research(VLDB2026)](To appear)]
 
 - GaussDB-Vector: A Large-Scale Persistent Real-Time Vector Database for LLM Applications.  
 **Ji Sun**, Guoliang Li, James Jie Pan, Jiang Wang, Yongqing Xie, Ruicheng Liu, Wen Nie  
-[[Full(VLDB2025)](resource/p2114-li (1).pdf)] [[Slides](resource/gaussdb-vector.pdf)]  
+[[Full Industry(VLDB2025)](resource/p2114-li (1).pdf)] [[Slides](resource/gaussdb-vector.pdf)]  
 
 - Boosting Accuracy and Efficiency for Vector Retrieval with Local Scaling Graph.  
 Hongya Wang, WenLong Wu, Cong Luo, Aobei Bian, Chunguang Meng, Yishuo Wu, **Ji Sun**  
-[[Full(ICDE2025)](To appear)]
+[[Full Research(ICDE2025)](To appear)]
 
 - GaussML: An End-to-End In-Database Machine Learning System.  
 Guoliang Li, **Ji Sun**, Lijie Xu, Shifu Li, Jiang Wang, Wen Nie  
-[[Full(ICDE2024)](resource/gaussmlicde.pdf)]  [[Slides](resource/GaussML.pptx)]
+[[Full Industry(ICDE2024)](resource/gaussmlicde.pdf)]  [[Slides](resource/GaussML.pptx)]
 
 - Learned Cardinality Estimation: A Design Space Exploration and a Comparative Evaluation.  
 **Ji Sun**, Jintao Zhang, Zhaoyan Sun, Guoliang Li, Nan Tang  
