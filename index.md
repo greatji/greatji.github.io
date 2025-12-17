@@ -19,6 +19,10 @@ permalink: /
 
 ## Researches
 
+- SVFusion: A CPU-GPU Co-Processing Architecture for Large-Scale Real-Time Vector Search.  
+Yuchen Peng, Dingyu Yang, Zhongle Xie, **Ji Sun**, Lidan Shou, Ke Chen, Gang Chen  
+[[Full(VLDB2026)](To appear)]
+
 - A Topology-Aware Localized Update Strategy for Graph-Based ANN Index.  
 Song Yu, Shengyuan Lin, Shufeng Gong, Yongqing Xie, Ruicheng Liu, Yijie Zhou, **Ji Sun**, Yanfeng Zhang, Guoliang Li, Ge Yu  
 [[Full(VLDB2026)](To appear)]
