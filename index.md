@@ -7,7 +7,7 @@ permalink: /
 [[Google Scholar](https://scholar.google.com/citations?user=ye4BnicAAAAJ&hl=en)] [[Github](https://github.com/greatji)]  
 
 ## Work Experience 
-- I am going back to Tsinghua University to be a research assistant professor.  
+- 2026.03 - present Assistant Professor at Tsinghua University, Haidian, Beijing  
 - 2021.07 - 2025.07 Researcher at Huawei, Haidian, Beijing  
   Works on build-in AI for openGauss/GaussDB (VectorDB, AI-based Optimizer, LLM, NewHardware)  
 - 2017.11 - 2018.05 Research Asistant of CSAIL, [MIT](https://www.csail.mit.edu/), Boston, MA  
