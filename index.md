@@ -4,7 +4,20 @@ title: Home
 permalink: /
 ---
 #### I received my Ph.D in database group of [Tsinghua University](http://www.tsinghua.edu.cn/publish/thu2018en/index.html), under the supervision of professor [Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/).I received my bachelor degree in Computer Science of [BUPT](http://www.bupt.edu.cn/). I am interested in Distributed System, Similarity Search and Machine Learning for Query Optimization.   
-[[Google Scholar](https://scholar.google.com/citations?user=ye4BnicAAAAJ&hl=en)] [[Github](https://github.com/greatji)]  
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:18px;">
+  <a href="{{ site.data.profile.google_scholar.url }}" style="display:inline-flex;align-items:center;gap:6px;">
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style="color:#1f5fbf;">
+      <path fill="currentColor" d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Zm-7 9.18V16l7 3.82L19 16v-3.82l-7 3.82-7-3.82Z"/>
+    </svg>
+    <span>Google Scholar (Cited by {{ site.data.profile.google_scholar.citations_display | default: site.data.profile.google_scholar.citations }})</span>
+  </a>
+  <a href="{{ site.data.profile.github.url }}" style="display:inline-flex;align-items:center;gap:6px;">
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style="color:#24292f;">
+      <path fill="currentColor" d="M12 .5C5.65.5.5 5.66.5 12.02c0 5.09 3.29 9.4 7.86 10.92.58.11.79-.25.79-.56 0-.28-.01-1.2-.02-2.18-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.2 1.77 1.2 1.03 1.78 2.71 1.26 3.37.97.1-.75.4-1.26.72-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.17a10.9 10.9 0 0 1 5.78 0c2.2-1.48 3.16-1.17 3.16-1.17.63 1.59.24 2.76.12 3.05.73.8 1.17 1.82 1.17 3.07 0 4.41-2.69 5.39-5.25 5.67.41.35.77 1.04.77 2.1 0 1.52-.01 2.74-.01 3.11 0 .31.21.68.8.56A11.52 11.52 0 0 0 23.5 12C23.5 5.66 18.35.5 12 .5Z"/>
+    </svg>
+    <span>GitHub ({{ site.data.profile.github.public_repos_display | default: "0" }} repos, {{ site.data.profile.github.total_stars_display | default: "0" }} stars)</span>
+  </a>
+</div>
 
 ## Work Experience 
 - 2026.03 - present Assistant Professor at Tsinghua University, Haidian, Beijing  

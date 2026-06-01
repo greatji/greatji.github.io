@@ -1,0 +1,22 @@
+{
+  "google_scholar": {
+    "url": "https://scholar.google.com/citations?user=ye4BnicAAAAJ&hl=en",
+    "citations": 1490,
+    "citations_display": "1,490",
+    "updated_at": "2026-06-01T09:00:00Z",
+    "source": "google_scholar_profile"
+  },
+  "github": {
+    "url": "https://github.com/greatji",
+    "followers": 0,
+    "followers_display": "0",
+    "public_repos": 30,
+    "public_repos_display": "30",
+    "owned_non_fork_repos": 13,
+    "owned_non_fork_repos_display": "13",
+    "total_stars": 73,
+    "total_stars_display": "73",
+    "updated_at": "2026-06-01T10:04:00Z",
+    "source": "github_users_api+repos_api"
+  }
+}
