@@ -129,10 +129,11 @@ Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**
 - 数据智能体：自主数据处理的新范式 [DACon@DataFun][[Slides]()]
 
 ## Services
-- PC Member of ICDE 2027, SIGKDD 2027  
+- PC Member of ICDE 2027, SIGKDD 2027
+- Reviewer of TKDE
 - Committee Member of pVLDB Reproducibility  
-- Review of ACM TODS  
-- Review of JCST  
+- Reviewer of ACM TODS  
+- Reviewer of JCST  
 
 _____
 <div style="height:100px;width:200px;margin:0 auto">
