@@ -38,7 +38,7 @@ Guoliang Li, Peiyao Zhou, Xuanhe Zhou, **Ji Sun**, Yuyu Luo, Ju Fan.
 
 - AgenticData: An Agentic Data Analytics System for Heterogeneous Data.  
 **Ji Sun**, Guoliang Li, Peiyao Zhou, Yihui Ma, Jingzhe Xu, Yuan Li.  
-[[arXiv](https://arxiv.org/abs/2508.05002v2)[Demo ADS@VLDB](https://vldb.org/2026/Workshops/VLDB-Workshops-2026/DATAI-ADS/ADS26_16.pdf)]
+[[arXiv](https://arxiv.org/abs/2508.05002v2)][[Demo ADS@VLDB](https://vldb.org/2026/Workshops/VLDB-Workshops-2026/DATAI-ADS/ADS26_16.pdf)]
 
 - SVFusion: A CPU-GPU Co-Processing Architecture for Large-Scale Real-Time Vector Search.  
 Yuchen Peng, Dingyu Yang, Zhongle Xie, **Ji Sun**, Lidan Shou, Ke Chen, Gang Chen  
