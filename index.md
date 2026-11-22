@@ -32,6 +32,13 @@ permalink: /
 - 2025.8.7  Our data agent system AgenticData got the top score on both [DABstep Benchmark](https://huggingface.co/spaces/adyen/DABstep) and [Spider-2.0-Lite](https://spider2-sql.github.io/)
 
 ## Researches
+- Data Agents: Agentic Data Systems.  
+Guoliang Li, Peiyao Zhou, Xuanhe Zhou, **Ji Sun**, Yuyu Luo, Ju Fan.  
+[[TKDE Dec. 2026, pp. 8081-8095, vol. 38](https://www.computer.org/csdl/journal/tk/2026/12/11702506/2kbmmlInyeI)]
+
+- AgenticData: An Agentic Data Analytics System for Heterogeneous Data.  
+**Ji Sun**, Guoliang Li, Peiyao Zhou, Yihui Ma, Jingzhe Xu, Yuan Li.  
+[[arXiv](https://arxiv.org/abs/2508.05002v2)[Demo ADS@VLDB](https://vldb.org/2026/Workshops/VLDB-Workshops-2026/DATAI-ADS/ADS26_16.pdf)]
 
 - SVFusion: A CPU-GPU Co-Processing Architecture for Large-Scale Real-Time Vector Search.  
 Yuchen Peng, Dingyu Yang, Zhongle Xie, **Ji Sun**, Lidan Shou, Ke Chen, Gang Chen  
@@ -122,7 +129,7 @@ Xuanhe Zhou, Chengliang Chai, Guoliang Li, **Ji Sun**
 - 数据智能体：自主数据处理的新范式 [DACon@DataFun][[Slides]()]
 
 ## Services
-- PC Member of ICDE 2027  
+- PC Member of ICDE 2027, SIGKDD 2027  
 - Committee Member of pVLDB Reproducibility  
 - Review of ACM TODS  
 - Review of JCST  
