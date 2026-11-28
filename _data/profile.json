@@ -1,9 +1,9 @@
 {
   "google_scholar": {
     "url": "https://scholar.google.com/citations?user=ye4BnicAAAAJ&hl=en",
-    "citations": 1743,
-    "citations_display": "1,743",
-    "updated_at": "2026-11-27T10:37:38+00:00",
+    "citations": 1746,
+    "citations_display": "1,746",
+    "updated_at": "2026-11-28T09:54:25+00:00",
     "source": "google_scholar_profile"
   },
   "github": {
@@ -16,7 +16,7 @@
     "owned_non_fork_repos_display": "16",
     "total_stars": 77,
     "total_stars_display": "77",
-    "updated_at": "2026-11-27T10:37:40+00:00",
+    "updated_at": "2026-11-28T09:54:27+00:00",
     "source": "github_users_api+repos_api"
   }
 }
